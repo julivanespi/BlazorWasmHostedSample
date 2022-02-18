@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch and Debug Standalone Blazor WebAssembly App",
+            "type": "blazorwasm",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "hosted": true,
+            "cwd": "${workspaceFolder}/Server",
+            "program": "${workspaceFolder}/Server/bin/Debug/net6.0/blazorwasm-debug-sample.Server.dll",
+            "timeout": 60000,
+            "url": "https://localhost:7074"
+        }
+    ]
+}
